@@ -34,17 +34,17 @@ from os import path, getenv
 import os, time 
 
 class Config:
-    API_ID = int(getenv("API_ID", "0112234"))
-    API_HASH = getenv("API_HASH", "abcdefg")
-    BOT_TOKEN = getenv("BOT_TOKEN", "1234567891:rkndeveloperDEhdhyjjvjjftSEW")
+    API_ID = int(getenv("API_ID", "13516702"))
+    API_HASH = getenv("API_HASH", "bf0cc3f062841935d3d5da65134ca4cf")
+    BOT_TOKEN = getenv("BOT_TOKEN", "8234964482:AAEiTkUd2Tyw2TbsAE9uz6rYeyd4bHoXPkc")
  
-    FORCE_SUB = int(getenv("FORCE_SUB", "-1001819787652"))
-    ADMIN = list(map(int, getenv("ADMIN", "6151758586").split()))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002120760645"))
+    FORCE_SUB = int(getenv("FORCE_SUB", "-1002694162456"))
+    ADMIN = list(map(int, getenv("ADMIN", "6407533831").split()))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002705099567"))
     
     # database configs
-    DB_URL = os.environ.get("DB_URL", "")
-    DB_NAME = os.environ.get("DB_NAME", "")
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://tanveer51749:8QU3occg03OHqD3Z@cluster0.ulrpc0d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME", "Tanveer")
     
     #web response 
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
@@ -57,10 +57,15 @@ class Config:
     SURPRICE = os.environ.get("SURPRICE", "https://telegra.ph/file/a5a2bb456bf3eecdbbb99.mp4 https://telegra.ph/file/03c6e49bea9ce6c908b87.mp4 https://telegra.ph/file/9ebf412f09cd7d2ceaaef.mp4 https://telegra.ph/file/293cc10710e57530404f8.mp4 https://telegra.ph/file/506898de518534ff68ba0.mp4 https://telegra.ph/file/dae0156e5f48573f016da.mp4 https://telegra.ph/file/3e2871e714f435d173b9e.mp4 https://telegra.ph/file/714982b9fedfa3b4d8d2b.mp4 https://telegra.ph/file/876edfcec678b64eac480.mp4 https://telegra.ph/file/6b1ab5aec5fa81cf40005.mp4 https://telegra.ph/file/b4834b434888de522fa49.mp4").split()
 
     LOGO = """
-╔═╗╔╦╗╔═╦╗  ╔══╗╔═╗╔╗─╔╗╔═╗╔╗─╔═╗╔═╗╔═╗╔═╗
-║╬║║╔╝║║║║  ╚╗╗║║╦╝║╚╦╝║║╦╝║║─║║║║╬║║╦╝║╬║
-║╗╣║╚╗║║║║  ╔╩╝║║╩╗╚╗║╔╝║╩╗║╚╗║║║║╔╝║╩╗║╗╣
-╚╩╝╚╩╝╚╩═╝  ╚══╝╚═╝─╚═╝─╚═╝╚═╝╚═╝╚╝─╚═╝╚╩╝
+    
+  _______                                   _                 _                        
+ |__   __|                                 | |               | |                       
+    | | __ _ _ ____   _____  ___ _ __    __| | _____   _____ | | ___  _ __   ___ _ __  
+    | |/ _` | '_ \ \ / / _ \/ _ \ '__|  / _` |/ _ \ \ / / _ \| |/ _ \| '_ \ / _ \ '__| 
+    | | (_| | | | \ V /  __/  __/ |    | (_| |  __/\ V / (_) | | (_) | |_) |  __/ |    
+    |_|\__,_|_| |_|\_/ \___|\___|_|     \__,_|\___| \_/ \___/|_|\___/| .__/ \___|_|    
+                                                                     | |               
+                                                                     |_|               
 ──────────  ──────────────────────────────"""
 
 rkn1 = Config()
